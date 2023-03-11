@@ -1,13 +1,6 @@
+package Code;
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author Alvin
- */
 /*
 referensi:
 https://gist.github.com/Vini2/bd22b36ddc69c5327097921f5118b709 untuk kode genetic algorithm
@@ -34,7 +27,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
-public class MainTubesPSC {
+public class Main {
     public static void main(String[] args) throws FileNotFoundException, IOException {
         Scanner sc = new Scanner(System.in);
         System.out.print("Path nama file input: ");
